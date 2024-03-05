@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Promocao } from 'src/app/core/types/types';
 
 @Component({
   selector: 'app-home',

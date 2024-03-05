@@ -30,6 +30,8 @@ import { CardDepoimentoComponent } from './shared/card-depoimento/card-depoiment
 import { FormBuscaComponent } from './shared/form-busca/form-busca.component';
 import { ModalComponent } from './shared/modal/modal.component';
 import { BotaoControleComponent } from './shared/botao-controle/botao-controle.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PromocoesComponent } from './pages/home/promocoes/promocoes.component';
 
 
 @NgModule({
@@ -46,6 +48,7 @@ import { BotaoControleComponent } from './shared/botao-controle/botao-controle.c
     FormBuscaComponent,
     ModalComponent,
     BotaoControleComponent,
+    PromocoesComponent,
   ],
   imports: [
     BrowserModule,
@@ -62,6 +65,7 @@ import { BotaoControleComponent } from './shared/botao-controle/botao-controle.c
     MatDatepickerModule,
     MatNativeDateModule,
     MatDialogModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
